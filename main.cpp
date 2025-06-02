@@ -6,11 +6,16 @@ void foo() {
 }
 
 void bar() {
-    
+    cout << "It’s bar!!" << endl;
+
 }
  
 int main() {
-    cout << "Hello, Word!" << endl;
+
     foo();
+
+    bar();
+    cout << "Hello, World!" << endl;
+
     return 0;
 }
