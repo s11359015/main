@@ -11,5 +11,6 @@ void bar() {
  
 int main() {
     cout << "Hello, Word!" << endl;
+    foo();
     return 0;
 }
